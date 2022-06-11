@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dongle&family=Fjalla+One&family=Lobster&family=Mochiy+Pop+P+One&family=Neonderthaw&family=Pacifico&family=Playfair+Display:ital,wght@0,600;1,400&family=Rubik+Beastly&display=swap');
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+
+.container{
+    min-height: 88vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* margin: 43px 0; */
+}
+
+.container h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 34px;
+
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.myinput{
+    width: 40%;
+    font-size: 16px;
+    padding: 9px;
+    margin: 8px;
+    border: solid blueviolet 4px;
+    border-radius: 12px;
+}
+
+.btn{
+    padding:8px ;
+    font-size:18px ;
+    border: solid blueviolet 4px;
+    border-radius: 10px;
+    color: white;
+    background: rgb(196, 64, 185);
+    cursor: pointer;
+    margin: 23px;
+}
